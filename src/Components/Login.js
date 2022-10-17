@@ -110,13 +110,13 @@ function Login(){
             }}
            onClick={handlesumit}
             component={Link}
-            to={logedUser?"./navbar":""}
+            to={logedUser?"/navbar":""}
           >
             Log in
           </Button>
           
             Don&apos;t have an account? 
-            <Button component={Link} to="./form" size="large" variant='Outlined' color="info">
+            <Button component={Link} to="/form" size="large" variant='Outlined' color="info">
          Sign UP!
         </Button>
           
