@@ -13,8 +13,8 @@ function App() {
         <Route path="/"element={<Login/>}/>
         <Route path="/Navbar" element={< Navbar/>}/>
         <Route path="/Form" element={<Form/>}/>
-        <Route path="/Navbar/Form" element={<Form/>}/>
-        <Route path='/Navbar/Tablecomponent' element={<Tablecomponent/>}/>
+        <Route path="/Form" element={<Form/>}/>
+        <Route path='/Tablecomponent' element={<Tablecomponent/>}/>
         
       </Routes>
       </BrowserRouter>
