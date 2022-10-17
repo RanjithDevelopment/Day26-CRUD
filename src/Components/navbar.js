@@ -25,10 +25,10 @@ export default function Navbar(){
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Button component={Link} to="./Tablecomponent" variant="contained" color="success">
+        <Button component={Link} to="/Tablecomponent" variant="contained" color="success">
 TO view Users
 </Button>&nbsp;
-        <Button component={Link} to="./form" variant="contained" color="success">
+        <Button component={Link} to="/form" variant="contained" color="success">
 Sgin Up !
 </Button>&nbsp;
 
